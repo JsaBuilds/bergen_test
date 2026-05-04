@@ -1,7 +1,8 @@
 # bergen_test
-Final Project Code for Intro to LLMs
 
-#*SETUP:*
+
+*SETUP:*
+
 
 Download BERGEN (can be found at `github.com/naver/bergen`).
 
@@ -11,7 +12,7 @@ Replace `bergen/modules/retrieve.py` with the `retrieve.py` file from this repo.
 
 Add `gemma-3-1b.yaml` from the repo to the folder `bergen/config/generators`.
 
-Add `asqa_Karpukhin.yaml` to bergen/config/dataset. All experiments on the ASQA dataset run with this config file.
+Add `asqa_Karpukhin.yaml` to `bergen/config/dataset`. All experiments on the ASQA dataset run with this config file.
 
 Add `asqa.yaml` and `nq.yaml` to the folder `bergen/config/prompt` (replace the current `nq.yaml` file). These contain updated prompts for the experiments that we used.
 
@@ -22,7 +23,8 @@ Upload BERGEN to Google Drive inside the `Colab Notebooks` folder
 Upload the two notebooks to Google Colab. To reproduce our environment, use Google Colab Pro with a A100 GPU on High-RAM mode. Make sure to give the notebooks access to your `HF_TOKEN` HuggingFace authentication token in your Secrets.
 
 
-#*RUNNING THE EXPERIMENTS:*
+*RUNNING THE EXPERIMENTS:*
+
 
 Run the two notebooks in Google Colab to reproduce the experiments.
 
