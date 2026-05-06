@@ -16,6 +16,8 @@ Add `asqa_Karpukhin.yaml` to `bergen/config/dataset`. All experiments on the ASQ
 
 Add `asqa.yaml` and `nq.yaml` to the folder `bergen/config/prompt` (replace the current `nq.yaml` file). These contain updated prompts for the experiments that we used.
 
+Add `spladev3-fatboy.yaml` to `bergen/config/retriever`.
+
 Add `requirements_josiah.txt` to the folder `bergen/`. This file accounts for package discrepancies of installed python packages.
 
 Upload BERGEN to Google Drive inside the `Colab Notebooks` folder
